@@ -1,0 +1,128 @@
+body{
+    background-image: url(images/dashboard.jpg);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    max-width: none;
+    background-size: cover;
+}
+
+#welcome-part{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -5%;
+    margin-left: -5%;
+    width: 200px;
+    height: 180px;
+}
+
+#map-part{
+    background-image: url(images/world_map.jpg);
+    position: absolute;
+    width: 28%;
+    height: 40%;
+    top: 25%;
+    left: 2%;    
+}
+
+#profile-part{
+    background-image: url(images/user-profile.jpg);
+    position: absolute;
+    width: 20%;
+    height: 40%;
+    top: 25%;
+    right: 2%; 
+}
+
+.primaryBg{
+    width: 40%;
+    padding: 8px 20px;
+    cursor: pointer;
+    border: 0;
+    outline: none;
+    background: linear-gradient(to left, #1E8020, #a3d5a4);
+}
+
+.round{
+    border-radius: 30px;
+}
+
+#map-button{
+    position: relative;
+    top: 105%;
+
+}
+
+#profile-button{
+    position: relative;
+    top: 105%;
+}
+
+#user-profile{
+    position: relative;
+    right: 8%;
+    margin-top: 3%;
+}
+
+#user-image{
+    background-image: url(images/user-profile.jpg);
+    position: relative;
+    width: 50%;
+    padding-top: 50%; 
+    right: -25%;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0  rgba(0, 0, 0, 0.24);
+}
+
+#change-image-button{
+    position: relative;
+    margin-top: 5%;
+    width: 100%;
+}
+
+table {
+    margin-top: 1%;
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid #000000;
+}
+  
+  th,
+  td {
+    padding: 4px;
+    text-align: left;
+    border: 1px solid #000000; /* Set border width and color */
+    padding: 8px;
+}
+  
+#add-destination-btn {
+    margin-top: 3%;
+}
+
+#delete-destination-btn {
+    margin-top: 3%;
+
+}
+
+#change-font-btn {
+   margin-top: 250%;
+}
+
+#destination-image {
+    background-image: url(images/Como.jpg);
+    border: 3px solid black;
+    position: relative;
+    width: 70%;
+    height: 65%; 
+    margin-top: 15%;
+}
+
+.col-7-height {
+    height: 450px;
+}
+  
+#change-photo-btn{
+    margin-top: 1%;
+}

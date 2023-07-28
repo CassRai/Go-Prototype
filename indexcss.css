@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.container{
+    height: 100%;
+    width: 100%;
+    background-image: url(images/index_background.png);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    max-width: none;
+}
+
+.inner-row{
+    height: 80vh;
+}
+
+.primaryBg{
+    width: 60%;
+    padding: 8px 20px;
+    cursor: pointer;
+    border: 0;
+    outline: none;
+    background: linear-gradient(to right, #1E8020, #a3d5a4);
+    border-radius: 30px;
+
+}
+
+.primaryColour{
+    color: #1E8020
+}
+
+.form-box{
+    background: #fff;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0  rgba(0, 0, 0, 0.24);
+}
+
+.registration-form{
+    display: none;
+}
+
+.button-box{
+    width: 250px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 15px 9px #CAF1CB;
+    border-radius: 30px;
+}
+
+.toggle-btn{
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+
+#btn{
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    width: 120px;
+    background: linear-gradient(to left, #1E8020, #CAF1CB);
+    border-radius: 30px;
+    transition: .9s;
+}
+
+#btn2{
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    width: 150px;
+    background: linear-gradient(to right, #1E8020, #CAF1CB);
+    border-radius: 30px;
+    transition: .9s;
+}
+
+
